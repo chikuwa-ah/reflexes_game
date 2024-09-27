@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reflexes game</title>
+    <style>
+        html{
+            overflow: hidden;
+            user-select: none;
+        }
+        canvas{
+            border: 1px solid black;
+        }
+        div{
+            display: flex;
+        }
+        .left{
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="800px" height="600px"></canvas>
+    <div>
+        <h2 id="time"></h2>
+        <h2 id="score" class="left"></h2>
+        <h2 id="miss" class="left"></h2>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
