@@ -1,0 +1,41 @@
+html{
+    overflow: hidden;
+    user-select: none;
+}
+canvas{
+    border: 1px solid black;
+}
+div{
+    display: flex;
+}
+.left{
+    margin-left: 50px;
+}
+
+.slider {
+    appearance: none;
+    width: 200px;
+    height: 1px;
+    border: 1px solid #000000;
+    border-radius: 9999px;
+    background: #000;
+    cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 9999px;
+    background: #000000;
+    box-shadow: none;
+}
+.slider::-moz-range-thumb {
+    border: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 9999px;
+    background: #000000;
+    box-shadow: none;
+}

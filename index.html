@@ -4,21 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>reflexes game</title>
-    <style>
-        html{
-            overflow: hidden;
-            user-select: none;
-        }
-        canvas{
-            border: 1px solid black;
-        }
-        div{
-            display: flex;
-        }
-        .left{
-            margin-left: 50px;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <canvas id="canvas" width="800px" height="600px"></canvas>
@@ -27,6 +13,8 @@
         <h2 id="score" class="left"></h2>
         <h2 id="miss" class="left"></h2>
     </div>
+    <input type="range" value="15" min="1" max="50" id="slider" class="slider" />
+    <h3 id="radius"></h3>
     <script src="main.js"></script>
 </body>
 </html>
