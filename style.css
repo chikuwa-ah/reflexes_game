@@ -1,7 +1,6 @@
 html{
     overflow: hidden;
     user-select: none;
-    background-color: black;
 }
 canvas{
     border: 1px solid black;
